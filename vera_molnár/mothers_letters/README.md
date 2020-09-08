@@ -1,4 +1,4 @@
-# Vera Molnár - My Mother’s Letters, 1984 & 1988
+# Vera Molnár - My Mother’s Letters, 1984 - 1988
 
 https://www.jstor.org/stable/1576070
 
@@ -39,7 +39,7 @@ Recreation:
 
 Original:
 
-<img src="pics/original_3.png" width="800">
+<img src="pics/original_3.png" width="750">
 
 Recreation:
 
