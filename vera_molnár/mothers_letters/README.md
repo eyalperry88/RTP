@@ -10,11 +10,11 @@ Mother, darling, forgive me. You certainly would have said since you opposed me 
 
 Original:
 
-![](pics/original_1.png)
+<img src="pics/original_1.png" width="550">
 
 Recreation:
 
-![](pics/2.png)
+<img src="pics/2.png" width="550">
 
 ## Figure 1c
 
