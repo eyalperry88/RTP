@@ -39,6 +39,7 @@ void ofApp::draw(){
       if (ofRandom(1) < 0.95) {
         pt.set(x + ofSignedNoise(x * 0.033 + i * 1000, mouseX * 0.01) * scale, y + ofSignedNoise(x * 0.03 + i * 1000, mouseY * 0.01));
       } else {
+        // once in a while, add a lot of noise on the Y for letters that exit the row
         pt.set(x + ofSignedNoise(x * 0.033 + i * 1000, mouseX * 0.01) * scale, y + ofRandom(-scale, scale));
       }
       line.addVertex(pt);
