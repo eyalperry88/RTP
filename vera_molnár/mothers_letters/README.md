@@ -9,24 +9,30 @@ Mother, darling, forgive me. You certainly would have said since you opposed me 
 ## Figure 1a
 
 Original:
+
 ![](pics/original_1.png)
 
 Recreation:
+
 ![](pics/2.png)
 
 ## Figure 1c
 
 Original:
+
 ![](pics/original_2.png)
 
 Recreation:
+
 ![](pics/3c.png)
 
 
 ## Figure 4
 
 Original:
+
 ![](pics/original_3.png)
 
 Recreation:
+
 ![](pics/4.png)
