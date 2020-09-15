@@ -20,21 +20,25 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+  //
+  // float delta = mouseY / 300.0;
+  // cout << delta << endl;
 
-  // float delta2 = mouseY / 300.0;
-  // cout << delta2 << endl;
-
-  // trail.clear();
+  //trail.clear();
 
 
-    for (int i = 0; i < 21; i++) {
-      float speed = 0.1 + 0.004 * i;
+    for (int i = 0; i < 20; i++) {
+      float speed = 0.1 + 0.005 * i;
       float offset = 1;
-      if (i > 10) {
+      float delta = 1.82666;
+      if (i >= 10) {
         offset += 0;
-        speed *= -1;
+        //speed *= -1;
+        delta = 1.6;
+        speed = 0.11 + 0.0055 * (i - 10);
       }
       float t = offset + (ofGetElapsedTimef() - startTime) * speed;
+      //float t = offset + (60 - (ofGetElapsedTimef() - startTime)) * speed;  // reverse
       if (!running) {
         t = offset;
       }
@@ -49,12 +53,14 @@ void ofApp::draw(){
         float a = 3;
         float b = 4;
         float c = 2;
-        float delta = 1.82666;
+        //float delta = 1.82666;
         float delta2 = 2.33333;
         float x = xorig + r * sin(a * t + delta);
         float y = yorig + r * sin(b * t);
         float size = 5 + 250 * pow(sin(c * t + delta2), 4);
-        float angle = 90 * sin(0.04 * (t - offset));
+        float angle = 90 * sin(0.05 * (t - offset));
+
+        //trail.addVertex(x, y);
 
         ofNoFill();
         ofSetColor(0);
@@ -68,10 +74,12 @@ void ofApp::draw(){
         } else {
           ofDrawRectangle(x, y, size, size);
         }
-    }
 
-  //   t += 0.02;
-  // }
+    //     t+= 0.02;
+    // }
+    // trail.draw();
+
+  }
 
 }
 

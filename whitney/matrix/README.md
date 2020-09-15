@@ -1,30 +1,22 @@
-# About emptyExample
+# John Whitney
 
-![Screenshot of emptyExample](emptyExample.png)
+## Recreation of Matrix (1971)
 
-### Learning Objectives
+Original:
 
-This example is the simplest possible openFrameworks app! It does nothing. 
-
-...Well, *almost* nothing. Although it may not be apparent, the emptyExample activates all of the default system states. (For example, it sets the default fill color to white; it just doesn't happen to draw anything with it.)
-
-The emptyExample is great for making sure that your openFrameworks development environment is compiling properly. It can also be useful as a "starter template" for making simple programs. 
-
-The emptyExample will help you understand what are the bare necessities of an openFrameworks program. In this regard, you can think of it as a "Hello World" for OF. 
+https://youtu.be/ryKT1uIPIaI?t=137
 
 
-### Expected Behavior
+Interview where he explains the mechanics (minute 19:00):
 
-When launching this app, you should see a light-gray screen. 
+https://vimeo.com/424671431/8fa1a4e594
 
-* There's no interaction. 
-* There's nothing to see. 
-* That's it. 
 
-Instructions for using the app:
+Recreations:
 
-* There's nothing to do. Move along.
+https://youtu.be/lOHMSGGNQuM
 
-### Other classes used in this file
+https://youtu.be/Bvx_fcmPOZE
 
-This example uses no other classes.
+
+The basis is a [https://en.wikipedia.org/wiki/Lissajous_curve](Lissajous curve).
