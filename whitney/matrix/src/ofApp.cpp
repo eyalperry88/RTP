@@ -60,7 +60,10 @@ void ofApp::draw(){
         float size = 5 + 250 * pow(sin(c * t + delta2), 4);
         float angle = 90 * sin(0.05 * (t - offset));
 
-        //trail.addVertex(x, y);
+        if (i == 0) {
+          trail.addVertex(x, y);
+
+        }
 
         ofNoFill();
         ofSetColor(0);
@@ -77,7 +80,7 @@ void ofApp::draw(){
 
     //     t+= 0.02;
     // }
-    // trail.draw();
+    trail.draw();
 
   }
 
