@@ -21,5 +21,7 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 
     ofTrueTypeFont font;
+    bool running;
+    vector <bool> bw;
     vector <int> xs, ys;
 };
