@@ -88,7 +88,7 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
 
-  ofSeedRandom(mouseX * mouseY);
+  ofSeedRandom(mouseX);
 
   line.clear();
   cout << "------------------------" << endl;
@@ -206,9 +206,12 @@ void ofApp::keyPressed(int key){
         z -= 10;
       }
     }
-    line.curveTo(ofPoint(nodes[toNode].x, nodes[toNode].y, z));
     direction = nodes[toNode] - nodes[currentNode];
     direction.normalize();
+    ofVec3f newPoint = nodes[toNode] + direction * 15;
+    newPoint.z = z;
+    line.curveTo(newPoint);
+
     cout << currentNode << "(" << updown[currentNode] << ", " << degree[currentNode] << ") --> " << toNode << "(" << updown[toNode] << ", " << degree[toNode] << ")" << endl;
 
     currentNode = toNode;
