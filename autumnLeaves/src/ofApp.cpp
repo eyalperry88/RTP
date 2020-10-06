@@ -13,9 +13,6 @@ void ofApp::drawTreeRec(ofVec3f origin, ofVec3f end, int depth, float winter, bo
   }
 
   if (ofDist(end.x / 1.5, end.y, mountainCenterX / 1.5, mountainCenterY) < mountainRadius) {
-  //
-  // if (ofDist(v.x, v.y, 0, -1) > 0) {
-    // skip the first leaf
     ofPolyline tree;
     tree.addVertex(origin);
     tree.lineTo(end);
@@ -24,23 +21,8 @@ void ofApp::drawTreeRec(ofVec3f origin, ofVec3f end, int depth, float winter, bo
 
     trees.push_back(make_tuple(tree, newWinter, treeType, treeBrightness));
   }
-  // } else {
-  //   ofPolyline tree;
-  //   tree.addVertex(origin);
-  //   tree.lineTo(origin + v * length / 2);
-  //
-  //   //leaves.push_back(make_tuple(end, newWinter, treeType, treeBrightness));
-  //
-  //   trees.push_back(make_tuple(tree, newWinter, treeType, treeBrightness));
-  // }
-
-
-
 
   if (depth > 0) {
-
-
-
     float distLeft = 0.75 * length; //1.618; // golden ratio
 
     while (distLeft > 6) {
@@ -126,6 +108,9 @@ void ofApp::draw(){
   moon.draw();
   ofPopMatrix();
 
+
+
+  // trees
   float stdev = ofMap(mouseX, 0, ofGetWidth(), 0, 0.66);
 
   for (auto& tree : trees) {
