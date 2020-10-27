@@ -18,4 +18,4 @@ Recreations:
 
 Bix (my parrot during 2001-2007):
 
-<img src="bix.png" width="45%"><img src="bix-rec.png" width="45%">
+<img src="bix.png" height="500px"><img src="bix-rec.png" height="500px">
