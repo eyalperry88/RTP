@@ -1,30 +1,23 @@
-# About emptyExample
+# Ken Knowlton
 
-![Screenshot of emptyExample](emptyExample.png)
+https://www.kenknowlton.com/
 
-### Learning Objectives
+http://www.knowltonmosaics.com/
 
-This example is the simplest possible openFrameworks app! It does nothing. 
+Original:
 
-...Well, *almost* nothing. Although it may not be apparent, the emptyExample activates all of the default system states. (For example, it sets the default fill color to white; it just doesn't happen to draw anything with it.)
+<img src="orig.jpg" width="50%">
 
-The emptyExample is great for making sure that your openFrameworks development environment is compiling properly. It can also be useful as a "starter template" for making simple programs. 
+Recreations:
 
-The emptyExample will help you understand what are the bare necessities of an openFrameworks program. In this regard, you can think of it as a "Hello World" for OF. 
+<img src="rec3.png" width="50%">
 
+<img src="rec2.png" width="50%">
 
-### Expected Behavior
+<img src="rec1.png" width="50%">
 
-When launching this app, you should see a light-gray screen. 
+Bix (my parrot during 2001-2007):
 
-* There's no interaction. 
-* There's nothing to see. 
-* That's it. 
+<img src="bix.png" width="50%">
 
-Instructions for using the app:
-
-* There's nothing to do. Move along.
-
-### Other classes used in this file
-
-This example uses no other classes.
+<img src="bix-rec.png" width="50%">
